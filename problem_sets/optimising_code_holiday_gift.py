@@ -15,7 +15,7 @@ for cost in gift_costs:
         total_price += cost * 1.08
 
 
-#Refractor
+#Refractored
 total_price = ([cost*1.08 for cost in gift_costs[cost < 25]]).sum() * 1.08
 
 print(total_price)
